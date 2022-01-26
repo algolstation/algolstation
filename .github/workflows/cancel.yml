@@ -2,7 +2,7 @@ name: Cancel
 on:
   push:
     branches:
-      - dev
+      - master
 
 # NB: We can discover workflow IDs for this job at https://api.github.com/repos/ORG/REPO/actions/workflows
 jobs:
