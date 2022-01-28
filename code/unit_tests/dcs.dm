@@ -14,6 +14,7 @@
 	if(length(bad_dms) || length(bad_dts))
 		fail("Components with invalid dupe modes: ([bad_dms.Join(",")]) ||| Components with invalid dupe types: ([bad_dts.Join(",")])")
 
+	return TRUE
 /datum/unit_test/bespoke_id
 	name = "DCS: Bespoke elements are configured with a proper id_arg_index"
 
@@ -25,3 +26,5 @@
 		var/datum/element/faketype = i
 		if((initial(faketype.element_flags) & ELEMENT_BESPOKE) && initial(faketype.id_arg_index) == base_index)
 			fail("A bespoke element was not configured with a proper id_arg_index: [faketype]")
+
+	return TRUE
