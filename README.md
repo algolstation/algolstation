@@ -1,6 +1,6 @@
-# Baystation [![CI Status](https://github.com/Baystation12/Baystation12/workflows/Run%20Tests/badge.svg)](https://github.com/baystation12/baystation12/actions)
+# Baystation [![CI Status](https://github.com/algolstation/algolstation/workflows/Run%20Tests/badge.svg)](https://github.com/algolstation/algolstation/actions)
 
-[Website](https://bay.ss13.me) - [Discord](https://bay.ss13.me/discord) - [Code](https://github.com/baystation12/baystation12) - [DMDoc](https://doc.ss13.me)
+[Website](https://algolstation.com) - [Discord](https://discord.gg/Q2kmcfvQrK) - [Code](https://github.com/algolstation/algolstation) <!-- - [DMDoc](https://doc.ss13.me)-->
 
 ---
 
