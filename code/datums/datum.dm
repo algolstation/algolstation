@@ -3,6 +3,23 @@
 	var/tmp/is_processing = FALSE
 	var/list/active_timers  //for SStimer
 
+		/**
+	  * Components attached to this datum
+	  *
+	  * Lazy associated list in the structure of `type:component/list of components`
+	  */
+	var/list/datum_components
+	/**
+	  * Any datum registered to receive signals from this datum is in this list
+	  *
+	  * Lazy associated list in the structure of `signal:registree/list of registrees`
+	  */
+	var/list/comp_lookup
+	/// Lazy associated list in the structure of `signals:proctype` that are run when the datum receives that signal
+	var/list/list/datum/callback/signal_procs
+
+	var/datum_flags = NONE
+
 #ifdef TESTING
 	var/tmp/running_find_references
 	var/tmp/last_find_references = 0
